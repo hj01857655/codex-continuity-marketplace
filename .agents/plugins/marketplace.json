@@ -1,0 +1,20 @@
+{
+  "name": "codex-continuity-marketplace",
+  "interface": {
+    "displayName": "Codex Continuity Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "codex-continuity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hj01857655/codex-continuity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
