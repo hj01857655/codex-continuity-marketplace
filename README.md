@@ -9,6 +9,13 @@ Codex marketplace source for the `codex-continuity` plugin.
 /plugin install codex-continuity@codex-continuity-marketplace
 ```
 
+For non-interactive CLI installation pinned to the stable `v0.1.1` release tag:
+
+```powershell
+codex plugin marketplace add hj01857655/codex-continuity-marketplace --ref v0.1.1
+codex plugin add codex-continuity@codex-continuity-marketplace
+```
+
 The marketplace entry points to the plugin implementation repository:
 
 ```text
