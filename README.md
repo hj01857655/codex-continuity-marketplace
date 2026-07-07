@@ -14,3 +14,5 @@ The marketplace entry points to the plugin implementation repository:
 ```text
 https://github.com/hj01857655/codex-continuity
 ```
+
+`codex-continuity` now stays intentionally thin: Codex host runtime remains the source of truth for `additional_context` role handling, deduplication, and truncation, while the plugin focuses on session retrieval, digesting, and note-settling workflow.
